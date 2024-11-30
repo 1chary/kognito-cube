@@ -31,7 +31,7 @@
 @media screen and (max-width: 767px) {
     .header-image-styling {
         width: 150px;
-        margin-left: 10px;
+        margin-left: 30px;
     }
     .tabs-container-for-large-devices {
         display: none;
@@ -50,4 +50,5 @@
     border: none;
     outline: none;
     cursor: pointer;
+    margin-right: 20px;
 }
