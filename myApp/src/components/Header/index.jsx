@@ -2,6 +2,7 @@ import React from "react";
 import "./index.css";
 import Popup from "reactjs-popup";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -12,11 +13,21 @@ const Header = () => {
         className="header-image-styling"
       />
       <ul className="tabs-container-for-large-devices">
-        <li className="tab-styling">Home</li>
-        <li className="tab-styling">About</li>
-        <li className="tab-styling">Product</li>
-        <li className="tab-styling">Services</li>
-        <li className="tab-styling">Contact</li>
+        <Link to="/" className="link-style">
+          <li className="tab-styling">Home</li>
+        </Link>
+        <Link to="/about" className="link-style">
+          <li className="tab-styling">About</li>
+        </Link>
+        <Link to="/product" className="link-style">
+          <li className="tab-styling">Product</li>
+        </Link>
+        <Link to="/services" className="link-style">
+          <li className="tab-styling">Services</li>
+        </Link>
+        <Link to="/contact" className="link-style">
+          <li className="tab-styling">Contact</li>
+        </Link>
       </ul>
       <div className="tab-styling-for-small-devices">
         <Popup
@@ -27,11 +38,21 @@ const Header = () => {
           }
         >
           <ul>
-            <li className="tab-styling">Home</li>
-            <li className="tab-styling">About</li>
-            <li className="tab-styling">Product</li>
-            <li className="tab-styling">Services</li>
-            <li className="tab-styling">Contact</li>
+            <Link to="/" className="link-style">
+              <li className="tab-styling">Home</li>
+            </Link>
+            <Link to="/about" className="link-style">
+              <li className="tab-styling">About</li>
+            </Link>
+            <Link to="/product" className="link-style">
+              <li className="tab-styling">Product</li>
+            </Link>
+            <Link to="/services" className="link-style">
+              <li className="tab-styling">Services</li>
+            </Link>
+            <Link to="/contact" className="link-style">
+              <li className="tab-styling">Contact</li>
+            </Link>
           </ul>
         </Popup>
       </div>

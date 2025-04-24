@@ -1,8 +1,11 @@
 import React from "react";
 import "./index.css";
+import Header from "../Header";
 
 const Home = () => {
   return (
+    <>
+    <Header/>
     <div className="home-page-container">
       <div className="content-container">
         <h1 className="main-heading">Online Education</h1>
@@ -20,6 +23,7 @@ const Home = () => {
         />
       </div>
     </div>
+    </>
   );
 };
 
