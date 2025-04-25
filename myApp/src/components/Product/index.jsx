@@ -15,6 +15,7 @@ const Product = () => {
         <span>This is the another line to check merge is working or not</span>
         <h1>Ram siya</h1>
         <button onClick={consoleMessage}>hi welcome to the another testing phase</button>
+        <h1>{new Date()}</h1>
     </div>
   )
 }
