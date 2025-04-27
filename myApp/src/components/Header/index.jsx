@@ -28,6 +28,9 @@ const Header = () => {
         <Link to="/contact" className="link-style">
           <li className="tab-styling">Contact</li>
         </Link>
+        <Link to = "/settings" className="link-style">
+              <li className="tab-styling">Settings</li>
+            </Link>
       </ul>
       <div className="tab-styling-for-small-devices">
         <Popup
@@ -51,7 +54,10 @@ const Header = () => {
               <li className="tab-styling">Services</li>
             </Link>
             <Link to="/contact" className="link-style">
-              <li className="tab-styling">Contact</li>
+              <li className="tab-styling">Contactasfs</li>
+            </Link>
+            <Link to = "/settings" className="link-style">
+              <li className="tab-styling">Settings</li>
             </Link>
           </ul>
         </Popup>

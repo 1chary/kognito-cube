@@ -5,6 +5,7 @@ import About from './components/About'
 import Product from './components/Product'
 import Services from './components/Services'
 import Contact from './components/Contact'
+import Settings from './Settings'
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Route exact path = "/product" element={<Product/>}/>
       <Route exact path = "/services" element={<Services/>}/>
       <Route exact path = "/contact" element={<Contact/>}/>
+      <Route exact path = "/settings" element = {<Settings/>} />
     </Routes>
   )
 }
