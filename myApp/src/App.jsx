@@ -5,7 +5,7 @@ import About from './components/About'
 import Product from './components/Product'
 import Services from './components/Services'
 import Contact from './components/Contact'
-import Settings from './Settings'
+import Settings from './components/Settings'
 
 const App = () => {
   return (
