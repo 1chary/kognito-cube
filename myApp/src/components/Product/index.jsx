@@ -7,6 +7,9 @@ const Product = () => {
     console.log("hello this is the testing")
   }
 
+  const todaysDate = new Date()
+  const convertDateToString = todaysDate.toISOString()
+
   return (
     <div>
         <Header/>
@@ -15,6 +18,7 @@ const Product = () => {
         <span>This is the another line to check merge is working or not</span>
         <h1>Ram siya</h1>
         <button onClick={consoleMessage}>hi welcome to the another testing phase</button>
+        <h1>{convertDateToString}</h1>
     </div>
   )
 }
